@@ -20,11 +20,17 @@
             android:layout_height="wrap_content"
             android:minWidth="120dp"
             android:maxWidth="250dp"
-            android:layout_below="@+id/username_text"
             android:layout_alignParentLeft="true"
             android:textSize="16sp"
             android:textColor="@android:color/black"
             android:text="Hi"
+            />
+        <ImageView
+            android:id="@+id/imgLeft"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/threedot"
+            android:visibility="gone"
             />
 
 
